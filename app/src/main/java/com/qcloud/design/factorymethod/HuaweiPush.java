@@ -1,0 +1,20 @@
+package com.qcloud.design.factorymethod;
+
+import android.util.Log;
+
+/**
+ * Description: 华为推送处理消息 ---> 具体产品
+ * Author: gaobaiqiang
+ * 2019-11-08 15:47.
+ */
+public class HuaweiPush implements PushChannel {
+    @Override
+    public void push(String message) {
+        Log.e("PUSH", "华为推送收到消息: " + message);
+    }
+
+    @Override
+    public void setAlias(String alias) {
+        Log.e("PUSH", "华为设置别名: " + alias);
+    }
+}
