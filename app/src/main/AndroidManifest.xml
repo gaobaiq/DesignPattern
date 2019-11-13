@@ -30,6 +30,9 @@
 
 		<activity android:name=".abstractfactory.AbstractFactoryActivity"
 			android:screenOrientation="portrait"/>
+
+		<activity android:name=".builder.BuilderActivity"
+			android:screenOrientation="portrait"/>
 	</application>
 
 </manifest>

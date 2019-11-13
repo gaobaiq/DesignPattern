@@ -6,6 +6,7 @@ import android.os.Bundle;
 import android.view.View;
 
 import com.qcloud.design.abstractfactory.AbstractFactoryActivity;
+import com.qcloud.design.builder.BuilderActivity;
 import com.qcloud.design.factorymethod.FactoryMethodActivity;
 import com.qcloud.design.singleton.SingletonActivity;
 
@@ -37,6 +38,14 @@ public class MainActivity extends AppCompatActivity {
             @Override
             public void onClick(View v) {
                 AbstractFactoryActivity.openActivity(MainActivity.this);
+            }
+        });
+
+        // 生成器模式
+        findViewById(R.id.btn_builder).setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                BuilderActivity.openActivity(MainActivity.this);
             }
         });
     }
