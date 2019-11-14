@@ -10,6 +10,8 @@ import com.qcloud.design.builder.BuilderActivity;
 import com.qcloud.design.chainofresponsibility.ChainOfResponsibilityActivity;
 import com.qcloud.design.command.CommandActivity;
 import com.qcloud.design.factorymethod.FactoryMethodActivity;
+import com.qcloud.design.interpreter.InterpreterActivity;
+import com.qcloud.design.iterator.IteratorActivity;
 import com.qcloud.design.prototype.PrototypeActivity;
 import com.qcloud.design.singleton.SingletonActivity;
 
@@ -73,6 +75,22 @@ public class MainActivity extends AppCompatActivity {
             @Override
             public void onClick(View v) {
                 CommandActivity.openActivity(MainActivity.this);
+            }
+        });
+
+        // 解释器模式
+        findViewById(R.id.btn_interpreter).setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                InterpreterActivity.openActivity(MainActivity.this);
+            }
+        });
+
+        // 迭代器模式
+        findViewById(R.id.btn_iterator).setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                IteratorActivity.openActivity(MainActivity.this);
             }
         });
     }

@@ -72,5 +72,23 @@
 			app:layout_constraintLeft_toLeftOf="parent"
 			app:layout_constraintRight_toRightOf="parent"
 			app:layout_constraintTop_toBottomOf="@+id/btn_chain_of_responsibility" />
+
+		<androidx.appcompat.widget.AppCompatButton
+			android:id="@+id/btn_interpreter"
+			android:layout_width="wrap_content"
+			android:layout_height="wrap_content"
+			android:text="解释器模式"
+			app:layout_constraintLeft_toLeftOf="parent"
+			app:layout_constraintRight_toRightOf="parent"
+			app:layout_constraintTop_toBottomOf="@+id/btn_command" />
+
+		<androidx.appcompat.widget.AppCompatButton
+			android:id="@+id/btn_iterator"
+			android:layout_width="wrap_content"
+			android:layout_height="wrap_content"
+			android:text="迭代器模式"
+			app:layout_constraintLeft_toLeftOf="parent"
+			app:layout_constraintRight_toRightOf="parent"
+			app:layout_constraintTop_toBottomOf="@+id/btn_interpreter" />
 	</androidx.constraintlayout.widget.ConstraintLayout>
 </androidx.core.widget.NestedScrollView>
