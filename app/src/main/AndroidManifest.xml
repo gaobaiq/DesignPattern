@@ -36,6 +36,9 @@
 
 		<activity android:name=".prototype.PrototypeActivity"
 			android:screenOrientation="portrait"/>
+
+		<activity android:name=".chainofresponsibility.ChainOfResponsibilityActivity"
+			android:screenOrientation="portrait"/>
 	</application>
 
 </manifest>

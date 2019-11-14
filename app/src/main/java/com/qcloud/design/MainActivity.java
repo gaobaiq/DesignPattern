@@ -7,6 +7,7 @@ import android.view.View;
 
 import com.qcloud.design.abstractfactory.AbstractFactoryActivity;
 import com.qcloud.design.builder.BuilderActivity;
+import com.qcloud.design.chainofresponsibility.ChainOfResponsibilityActivity;
 import com.qcloud.design.factorymethod.FactoryMethodActivity;
 import com.qcloud.design.prototype.PrototypeActivity;
 import com.qcloud.design.singleton.SingletonActivity;
@@ -55,6 +56,14 @@ public class MainActivity extends AppCompatActivity {
             @Override
             public void onClick(View v) {
                 PrototypeActivity.openActivity(MainActivity.this);
+            }
+        });
+
+        // 责任链模式
+        findViewById(R.id.btn_chain_of_responsibility).setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                ChainOfResponsibilityActivity.openActivity(MainActivity.this);
             }
         });
     }
