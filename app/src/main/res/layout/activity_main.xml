@@ -90,5 +90,14 @@
 			app:layout_constraintLeft_toLeftOf="parent"
 			app:layout_constraintRight_toRightOf="parent"
 			app:layout_constraintTop_toBottomOf="@+id/btn_interpreter" />
+
+		<androidx.appcompat.widget.AppCompatButton
+			android:id="@+id/btn_mediator"
+			android:layout_width="wrap_content"
+			android:layout_height="wrap_content"
+			android:text="中介模式"
+			app:layout_constraintLeft_toLeftOf="parent"
+			app:layout_constraintRight_toRightOf="parent"
+			app:layout_constraintTop_toBottomOf="@+id/btn_iterator" />
 	</androidx.constraintlayout.widget.ConstraintLayout>
 </androidx.core.widget.NestedScrollView>

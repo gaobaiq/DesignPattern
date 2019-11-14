@@ -12,6 +12,7 @@ import com.qcloud.design.command.CommandActivity;
 import com.qcloud.design.factorymethod.FactoryMethodActivity;
 import com.qcloud.design.interpreter.InterpreterActivity;
 import com.qcloud.design.iterator.IteratorActivity;
+import com.qcloud.design.mediator.MediatorActivity;
 import com.qcloud.design.prototype.PrototypeActivity;
 import com.qcloud.design.singleton.SingletonActivity;
 
@@ -91,6 +92,14 @@ public class MainActivity extends AppCompatActivity {
             @Override
             public void onClick(View v) {
                 IteratorActivity.openActivity(MainActivity.this);
+            }
+        });
+
+        // 中介模式
+        findViewById(R.id.btn_mediator).setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                MediatorActivity.openActivity(MainActivity.this);
             }
         });
     }
