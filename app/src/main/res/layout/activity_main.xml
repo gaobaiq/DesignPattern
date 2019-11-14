@@ -63,5 +63,14 @@
 			app:layout_constraintLeft_toLeftOf="parent"
 			app:layout_constraintRight_toRightOf="parent"
 			app:layout_constraintTop_toBottomOf="@+id/btn_prototype" />
+
+		<androidx.appcompat.widget.AppCompatButton
+			android:id="@+id/btn_command"
+			android:layout_width="wrap_content"
+			android:layout_height="wrap_content"
+			android:text="命令模式"
+			app:layout_constraintLeft_toLeftOf="parent"
+			app:layout_constraintRight_toRightOf="parent"
+			app:layout_constraintTop_toBottomOf="@+id/btn_chain_of_responsibility" />
 	</androidx.constraintlayout.widget.ConstraintLayout>
 </androidx.core.widget.NestedScrollView>
