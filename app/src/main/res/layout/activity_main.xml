@@ -99,5 +99,14 @@
 			app:layout_constraintLeft_toLeftOf="parent"
 			app:layout_constraintRight_toRightOf="parent"
 			app:layout_constraintTop_toBottomOf="@+id/btn_iterator" />
+
+		<androidx.appcompat.widget.AppCompatButton
+			android:id="@+id/btn_observer"
+			android:layout_width="wrap_content"
+			android:layout_height="wrap_content"
+			android:text="观察者模式"
+			app:layout_constraintLeft_toLeftOf="parent"
+			app:layout_constraintRight_toRightOf="parent"
+			app:layout_constraintTop_toBottomOf="@+id/btn_mediator" />
 	</androidx.constraintlayout.widget.ConstraintLayout>
 </androidx.core.widget.NestedScrollView>

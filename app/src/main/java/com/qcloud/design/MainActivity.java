@@ -13,6 +13,7 @@ import com.qcloud.design.factorymethod.FactoryMethodActivity;
 import com.qcloud.design.interpreter.InterpreterActivity;
 import com.qcloud.design.iterator.IteratorActivity;
 import com.qcloud.design.mediator.MediatorActivity;
+import com.qcloud.design.observer.ObserverActivity;
 import com.qcloud.design.prototype.PrototypeActivity;
 import com.qcloud.design.singleton.SingletonActivity;
 
@@ -100,6 +101,14 @@ public class MainActivity extends AppCompatActivity {
             @Override
             public void onClick(View v) {
                 MediatorActivity.openActivity(MainActivity.this);
+            }
+        });
+
+        // 观察者模式
+        findViewById(R.id.btn_observer).setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                ObserverActivity.openActivity(MainActivity.this);
             }
         });
     }
