@@ -8,6 +8,7 @@ import android.view.View;
 import com.qcloud.design.abstractfactory.AbstractFactoryActivity;
 import com.qcloud.design.builder.BuilderActivity;
 import com.qcloud.design.factorymethod.FactoryMethodActivity;
+import com.qcloud.design.prototype.PrototypeActivity;
 import com.qcloud.design.singleton.SingletonActivity;
 
 public class MainActivity extends AppCompatActivity {
@@ -46,6 +47,14 @@ public class MainActivity extends AppCompatActivity {
             @Override
             public void onClick(View v) {
                 BuilderActivity.openActivity(MainActivity.this);
+            }
+        });
+
+        // 原型模式
+        findViewById(R.id.btn_prototype).setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                PrototypeActivity.openActivity(MainActivity.this);
             }
         });
     }
