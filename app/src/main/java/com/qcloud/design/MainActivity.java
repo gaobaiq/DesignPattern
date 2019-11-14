@@ -16,6 +16,7 @@ import com.qcloud.design.mediator.MediatorActivity;
 import com.qcloud.design.observer.ObserverActivity;
 import com.qcloud.design.prototype.PrototypeActivity;
 import com.qcloud.design.singleton.SingletonActivity;
+import com.qcloud.design.state.StateActivity;
 
 public class MainActivity extends AppCompatActivity {
 
@@ -109,6 +110,14 @@ public class MainActivity extends AppCompatActivity {
             @Override
             public void onClick(View v) {
                 ObserverActivity.openActivity(MainActivity.this);
+            }
+        });
+
+        // 状态模式
+        findViewById(R.id.btn_state).setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                StateActivity.openActivity(MainActivity.this);
             }
         });
     }
