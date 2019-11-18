@@ -52,10 +52,40 @@
 		<activity android:name=".mediator.MediatorActivity"
 			android:screenOrientation="portrait"/>
 
+		<activity android:name=".memento.MementoActivity"
+			android:screenOrientation="portrait"/>
+
 		<activity android:name=".observer.ObserverActivity"
 			android:screenOrientation="portrait"/>
 
 		<activity android:name=".state.StateActivity"
+			android:screenOrientation="portrait"/>
+
+		<activity android:name=".strategy.StrategyActivity"
+			android:screenOrientation="portrait"/>
+
+		<activity android:name=".templatemethod.TemplateMethodActivity"
+			android:screenOrientation="portrait"/>
+
+		<activity android:name=".visitor.VisitorActivity"
+			android:screenOrientation="portrait"/>
+
+		<activity android:name=".adapter.AdapterActivity"
+			android:screenOrientation="portrait"/>
+
+		<activity android:name=".proxy.ProxyActivity"
+			android:screenOrientation="portrait"/>
+
+		<activity android:name=".plyweight.PlyweightActivity"
+			android:screenOrientation="portrait"/>
+
+		<activity android:name=".facade.FacadeActivity"
+			android:screenOrientation="portrait"/>
+
+		<activity android:name=".bridge.BridgeActivity"
+			android:screenOrientation="portrait"/>
+
+		<activity android:name=".decorator.DecoratorActivity"
 			android:screenOrientation="portrait"/>
 	</application>
 

@@ -101,13 +101,22 @@
 			app:layout_constraintTop_toBottomOf="@+id/btn_iterator" />
 
 		<androidx.appcompat.widget.AppCompatButton
+			android:id="@+id/btn_memento"
+			android:layout_width="wrap_content"
+			android:layout_height="wrap_content"
+			android:text="备忘录模式"
+			app:layout_constraintLeft_toLeftOf="parent"
+			app:layout_constraintRight_toRightOf="parent"
+			app:layout_constraintTop_toBottomOf="@+id/btn_mediator" />
+
+		<androidx.appcompat.widget.AppCompatButton
 			android:id="@+id/btn_observer"
 			android:layout_width="wrap_content"
 			android:layout_height="wrap_content"
 			android:text="观察者模式"
 			app:layout_constraintLeft_toLeftOf="parent"
 			app:layout_constraintRight_toRightOf="parent"
-			app:layout_constraintTop_toBottomOf="@+id/btn_mediator" />
+			app:layout_constraintTop_toBottomOf="@+id/btn_memento" />
 
 		<androidx.appcompat.widget.AppCompatButton
 			android:id="@+id/btn_state"
@@ -117,5 +126,86 @@
 			app:layout_constraintLeft_toLeftOf="parent"
 			app:layout_constraintRight_toRightOf="parent"
 			app:layout_constraintTop_toBottomOf="@+id/btn_observer" />
+
+		<androidx.appcompat.widget.AppCompatButton
+			android:id="@+id/btn_strategy"
+			android:layout_width="wrap_content"
+			android:layout_height="wrap_content"
+			android:text="策略模式"
+			app:layout_constraintLeft_toLeftOf="parent"
+			app:layout_constraintRight_toRightOf="parent"
+			app:layout_constraintTop_toBottomOf="@+id/btn_state" />
+
+		<androidx.appcompat.widget.AppCompatButton
+			android:id="@+id/btn_template_method"
+			android:layout_width="wrap_content"
+			android:layout_height="wrap_content"
+			android:text="模板方法模式"
+			app:layout_constraintLeft_toLeftOf="parent"
+			app:layout_constraintRight_toRightOf="parent"
+			app:layout_constraintTop_toBottomOf="@+id/btn_strategy" />
+
+		<androidx.appcompat.widget.AppCompatButton
+			android:id="@+id/btn_visitor"
+			android:layout_width="wrap_content"
+			android:layout_height="wrap_content"
+			android:text="访问者模式"
+			app:layout_constraintLeft_toLeftOf="parent"
+			app:layout_constraintRight_toRightOf="parent"
+			app:layout_constraintTop_toBottomOf="@+id/btn_template_method" />
+
+		<androidx.appcompat.widget.AppCompatButton
+			android:id="@+id/btn_adapter"
+			android:layout_width="wrap_content"
+			android:layout_height="wrap_content"
+			android:text="适配器模式"
+			app:layout_constraintLeft_toLeftOf="parent"
+			app:layout_constraintRight_toRightOf="parent"
+			app:layout_constraintTop_toBottomOf="@+id/btn_visitor" />
+
+		<androidx.appcompat.widget.AppCompatButton
+			android:id="@+id/btn_proxy"
+			android:layout_width="wrap_content"
+			android:layout_height="wrap_content"
+			android:text="代理模式"
+			app:layout_constraintLeft_toLeftOf="parent"
+			app:layout_constraintRight_toRightOf="parent"
+			app:layout_constraintTop_toBottomOf="@+id/btn_adapter" />
+
+		<androidx.appcompat.widget.AppCompatButton
+			android:id="@+id/btn_plywieght"
+			android:layout_width="wrap_content"
+			android:layout_height="wrap_content"
+			android:text="享元模式"
+			app:layout_constraintLeft_toLeftOf="parent"
+			app:layout_constraintRight_toRightOf="parent"
+			app:layout_constraintTop_toBottomOf="@+id/btn_proxy" />
+
+		<androidx.appcompat.widget.AppCompatButton
+			android:id="@+id/btn_facade"
+			android:layout_width="wrap_content"
+			android:layout_height="wrap_content"
+			android:text="外观模式"
+			app:layout_constraintLeft_toLeftOf="parent"
+			app:layout_constraintRight_toRightOf="parent"
+			app:layout_constraintTop_toBottomOf="@+id/btn_plywieght" />
+
+		<androidx.appcompat.widget.AppCompatButton
+			android:id="@+id/btn_bridge"
+			android:layout_width="wrap_content"
+			android:layout_height="wrap_content"
+			android:text="桥接模式"
+			app:layout_constraintLeft_toLeftOf="parent"
+			app:layout_constraintRight_toRightOf="parent"
+			app:layout_constraintTop_toBottomOf="@+id/btn_facade" />
+
+		<androidx.appcompat.widget.AppCompatButton
+			android:id="@+id/btn_decorator"
+			android:layout_width="wrap_content"
+			android:layout_height="wrap_content"
+			android:text="装饰模式"
+			app:layout_constraintLeft_toLeftOf="parent"
+			app:layout_constraintRight_toRightOf="parent"
+			app:layout_constraintTop_toBottomOf="@+id/btn_bridge" />
 	</androidx.constraintlayout.widget.ConstraintLayout>
 </androidx.core.widget.NestedScrollView>
